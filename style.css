@@ -71,6 +71,26 @@ button:active{
     background-color: red;
 }
 
+:target{
+     background-color: yellow;
+     color:white;
+}
 
+button:disabled{
+    background-color: red;
+    cursor: none;
+    
+}
+button{
+    border:none;
+    display: block;
+    
+}
+
+input{
+    height: 20px;
+    width:200px;
+    border:1px solid red;
+}
 
    
